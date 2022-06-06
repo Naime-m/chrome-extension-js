@@ -26,3 +26,16 @@ button{
     color: white;
     border: none;
 }
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+li {
+    margin-top: 5px;
+    
+}
+
+li a {
+    color: #5f9341;
+}
