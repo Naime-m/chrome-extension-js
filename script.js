@@ -4,8 +4,7 @@ const deleteBtn = document.getElementById("delete-btn")
 const inputEl = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
-
-
+const tabBtn = document.getElementById("tab-btn")
 
 const tabs = [
     {url: "https://www.linkedin.com/"}
