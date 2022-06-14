@@ -6,6 +6,19 @@ const ulEl = document.getElementById("ul-el")
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
 
+
+const tabs = [
+    {url: "https://www.linkedin.com/"}
+]
+
+tabBtn.addEventListener("click", function(){
+    myLeads.push(tabs[0].url)
+    localStorage.setItem("myLeads",JSON.stringify(myLeads))
+    render(myLeads)
+})
+
+
+
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
     render(myLeads)
